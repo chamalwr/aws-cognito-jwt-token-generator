@@ -1,0 +1,21 @@
+{
+  "name": "aws-cognitto-nodejs",
+  "version": "1.0.0",
+  "description": "JWT Token demo with AWS Cognitto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "AWS",
+    "NodeJS",
+    "Cognitto"
+  ],
+  "author": "chamalwr",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity-provider": "^3.51.0",
+    "amazon-cognito-identity-js": "^5.2.6",
+    "dotenv": "^16.0.0"
+  }
+}
